@@ -65,8 +65,8 @@ height: 28px;
 padding-top: 12px;
 margin-top: -10px;
 }
-img {
-    height: 80%;
+img#grass{
+    height: 85%;
     width: 1270px;
     margin: 0 0 0 0;
     box-sizing: border-box;
@@ -80,7 +80,7 @@ float: left;
 }
 .text1{
   position: absolute;
-  top: 80px;
+  top: 110px;
   left: 12px;
   width: 400px;
 }
@@ -88,6 +88,11 @@ float: left;
     position: absolute;
     top: 120px;
     left: 12px;
-    width: 250px;
-}  
+    width: 250px;*/  
+img#tomato{
+  position: absolute;
+  top: -3px;
+  left: 840px;
+  width: 420px;
+}
 
