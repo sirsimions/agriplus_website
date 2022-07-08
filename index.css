@@ -57,5 +57,11 @@ color: white;
 .search2{
     width: 80px;
     align-items: flex-start;
-    display: inline-block;
+    /*display: inline-block;*/
+}
+#backg{
+background-color: rgb(230, 98, 10);
+height: 28px;
+padding-top: 12px;
+margin-top: -10px;
 }
