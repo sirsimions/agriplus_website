@@ -72,3 +72,17 @@ img {
     box-sizing: border-box;
     position: fixed;
 }
+.bgtext{
+position: relative;
+text-align: center;
+color: black;
+float: left;
+}
+.text1{
+  position: absolute;
+  top: 80px;
+  left: 12px;
+  width: 250px;
+
+}
+
