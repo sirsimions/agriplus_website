@@ -146,9 +146,22 @@ a:hover#backg1{
     height: 1px;
     bottom: 0px;
     left: 3%;
-    border-bottom: 1px solid #ED661F;
+    border-bottom: 2px solid #ED661F;
     
   }
+  div.range{
+    display: inline-flexbox;
+    position: absolute;
+    top:750px;
+    margin-left: 60px;
+  }
+  img.call{
+    height: 300px;
+    position: absolute;
+    top: 700px;
+    right: 12px
+  }
+
     /*#stat{
     
         display: inline-flex;
