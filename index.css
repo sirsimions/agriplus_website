@@ -180,14 +180,14 @@ a:hover#backg1{
 div.popular{
     display: inline-flexbox;
     position: absolute;
-    top:1270px;
+    top:1290px;
     margin-left: 60px;
     text-align: center;
   }
   div#most-pop{
     display: inline-block;
     position: relative;
-    background-color: aqua;
+    /*background-color: aqua;*/
     width: 290px; 
   }
   .exist1{
@@ -209,8 +209,30 @@ div.popular{
     left: 0%;
     border-bottom: 2px solid #ED661F;
   }
-
-
+img.carrot{
+    position: absolute;
+    top: 1160px;
+    left: 130px;
+    height: 140px;
+}
+img.cereal{
+    position: absolute;
+    top: 1160px;
+    left: 430px;
+    height: 140px;
+}
+img.fish{
+    position: absolute;
+    top: 1160px;
+    left: 720px;
+    height: 140px;
+}
+img.sukuma{
+    position: absolute;
+    top: 1160px;
+    left: 1020px;
+    height: 140px;
+}
     
     
     
