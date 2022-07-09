@@ -365,6 +365,19 @@ div.line{
     top: 1200px;
     margin-left: 50px;
   }
+  div.customer{
+    display: inline-flexbox;
+    position: absolute;
+    top:2000px;
+    margin-left: 60px;
+    text-align: center;
+  }
+  div#feedback{
+    display: inline-block;
+    position: relative;
+    /*background-color: aqua;*/
+    width: 290px; 
+  }
   
     
     
