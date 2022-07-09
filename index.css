@@ -107,12 +107,11 @@ a:hover#backg1{
 .stats{
     display: flex;
     flex-direction: row; 
-    align-items; center:
-    width:80px;
+    justify-items: 50px;
     height:70px;
     position: absolute;
     top: 610px;
-    right: 114px;
+    right: 150px;
 }
 #stat{
     
@@ -346,8 +345,6 @@ img.tomats{
     position: relative;
   }
 div.line{
-
-}.line{
     width: 1100px;
     height: 30px;
     border-bottom: 12px solid grey;
@@ -358,7 +355,16 @@ div.line{
     margin-right: 35px;
 
     }
-  
+  div.state{
+    display: inline-flexbox;
+    position: relative;
+  }  
+  div.statement{
+    position: relative;
+    text-align: left;
+    top: 1200px;
+    margin-left: 50px;
+  }
   
     
     
