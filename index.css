@@ -200,7 +200,7 @@ div.popular{
     top:1100px;
     margin-left: 60px;
   }
-  /*#under:before{
+  #under:before{
     content: '';
     position: absolute;
     width: 50%;
@@ -210,22 +210,6 @@ div.popular{
     border-bottom: 2px solid #ED661F;
   }
 
-
-    /*.popular{
-        display: inline-flex;
-        flex-direction: row;
-        width: 800px;
-        height: 75px;
-        margin: 1px solid white;
-        justify-content: space-around;
-        align-items: center;
-        background-color:yellow;
-        position: relative;
-    }
-    #most-popular{
-        position: absolute;
-        top: 800px;
-    }
 
     
     
