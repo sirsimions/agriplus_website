@@ -161,7 +161,27 @@ a:hover#backg1{
     top: 700px;
     right: 12px
   }
-
+  div.category{
+    display: inline-flexbox;
+    position: absolute;
+    top:1000px;
+    right: 300px;
+    text-align: center;
+    
+  }
+  .product{
+    display: inline-block;
+    position: relative;
+}
+.product:before{
+    content: '';
+    position: absolute;
+    width: 23%;
+    height: 1px;
+    bottom: 0px;
+    left: 32%;
+    border-bottom: 2px solid #ED661F;
+}
     /*#stat{
     
         display: inline-flex;
