@@ -31,7 +31,7 @@ body{
     margin: 0 -50px;
     text-decoration-line: none;
     color: white;
-    /*color: rgb(230, 98, 10);*/
+    
 }
     
 a:hover{
@@ -57,7 +57,7 @@ color: white;
 .search2{
     width: 80px;
     align-items: flex-start;
-    /*display: inline-block;*/
+   
 }
 #backg{
 background-color: #ED661F;
@@ -85,11 +85,7 @@ float: left;
   left: 12px;
   width: 400px;
 }
-/*.text2{
-    position: absolute;
-    top: 120px;
-    left: 12px;
-    width: 250px;*/  
+
 img#tomato{
   position: absolute;
   top: -3px;
@@ -122,24 +118,29 @@ a:hover#backg1{
 }
 #stat{
     
-    /*display: inline-flex;*/
-    /*flex-direction: row;*/
     width: 150px;
     height: 75px;
     margin: 1px solid white;
     justify-content: space-around;
     align-items: center;
     background-color:white;
-    /*float:right;*/
     box-shadow: 5px 5px grey; 
     padding-left: 12px;
     font-weight:700;
 }
-.exist{
+
+  div.range{
+    display: inline-flexbox;
+    position: absolute;
+    top:750px;
+    margin-left: 60px;
+  }
+  /*Creating short-text underline*/
+  .exist{
     display: inline-block;
     position: relative;
 }
-.exist:before{
+  .exist:before{
     content: '';
     position: absolute;
     width: 50%;
@@ -148,12 +149,6 @@ a:hover#backg1{
     left: 3%;
     border-bottom: 2px solid #ED661F;
     
-  }
-  div.range{
-    display: inline-flexbox;
-    position: absolute;
-    top:750px;
-    margin-left: 60px;
   }
   img.call{
     height: 300px;
@@ -182,19 +177,59 @@ a:hover#backg1{
     left: 32%;
     border-bottom: 2px solid #ED661F;
 }
-    /*#stat{
-    
+div.popular{
+    display: inline-flexbox;
+    position: absolute;
+    top:1200px;
+    margin-left: 60px;
+    text-align: center;
+  }
+  div#most-pop{
+    display: inline-block;
+    position: relative;
+    background-color: aqua;
+    width: 290px; 
+  }
+  .exist1{
+    display: inline-block;
+    position: relative;
+}
+  div.range1{
+    display: inline-flexbox;
+    position: absolute;
+    top:1100px;
+    margin-left: 60px;
+  }
+  /*#under:before{
+    content: '';
+    position: absolute;
+    width: 50%;
+    height: 1px;
+    bottom: 14px;
+    left: 3%;
+    border-bottom: 2px solid #ED661F;
+  }
+
+
+    /*.popular{
         display: inline-flex;
         flex-direction: row;
-        width: 150px;
+        width: 800px;
         height: 75px;
         margin: 1px solid white;
-        justify-content: space-around:
+        justify-content: space-around;
         align-items: center;
         background-color:yellow;
+        position: relative;
     }
+    #most-popular{
+        position: absolute;
+        top: 800px;
+    }
+
     
-}
+    
+    
     
       
 
