@@ -133,8 +133,8 @@ a:hover#backg1{
     /*float:right;*/
     box-shadow: 5px 5px grey; 
     padding-left: 12px;
+    font-weight:700;
 }
-
     /*#stat{
     
         display: inline-flex;
