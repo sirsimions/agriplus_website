@@ -236,6 +236,62 @@ img.sukuma{
 .bold{
     font-weight: 700;
 }
+.exist2{
+    display: inline-block;
+    position: relative;
+}
+  div.range2{
+    display: inline-flexbox;
+    position: absolute;
+    top:1390px;
+    margin-left: 60px;
+  }
+  #under1:before{
+    content: '';
+    position: absolute;
+    width: 35%;
+    height: 1px;
+    bottom: 14px;
+    left: 0%;
+    border-bottom: 2px solid #ED661F;
+  }
+  div.popular1{
+    display: inline-flexbox;
+    position: absolute;
+    top:1600px;
+    margin-left: 60px;
+    text-align: center;
+  }
+  div#most-pop1{
+    display: inline-block;
+    position: relative;
+    /*background-color: aqua;*/
+    width: 290px; 
+  }
+  img.chic{
+    position: absolute;
+    top: 1450px;
+    left: 130px;
+    height: 140px;
+}
+img.rice{
+    position: absolute;
+    top: 1450px;
+    left: 430px;
+    height: 140px;
+}
+img.mursik{
+    position: absolute;
+    top: 1450px;
+    left: 720px;
+    height: 140px;
+}
+img.tomats{
+    position: absolute;
+    top: 1450px;
+    left: 1020px;
+    height: 140px;
+}
     
     
     
