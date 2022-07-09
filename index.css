@@ -70,7 +70,8 @@ img#grass{
     width: 1270px;
     margin: 0 0 0 0;
     box-sizing: border-box;
-    position: fixed;
+    
+    
 }
 .bgtext{
 position: relative;
@@ -92,7 +93,7 @@ float: left;
 img#tomato{
   position: absolute;
   top: -3px;
-  left: 840px;
+  left: 830px;
   width: 420px;
 }
 a#backg1{
@@ -104,3 +105,49 @@ a#backg1{
     height: 28px;
     text-decoration: none;
 }
+a:hover#backg1{
+    text-decoration: underline;
+    color: rgb(230, 98, 10);
+    text-emphasis-color: white;
+    }
+.stats{
+    display: flex;
+    flex-direction: row; 
+    align-items; center:
+    width:80px;
+    height:70px;
+    position: absolute;
+    top: 600px;
+    right: 114px;
+}
+#stat{
+    
+    /*display: inline-flex;*/
+    /*flex-direction: row;*/
+    width: 150px;
+    height: 75px;
+    margin: 1px solid white;
+    justify-content: space-around:
+    align-items: center;
+    background-color:white;
+    /*float:right;*/
+    box-shadow: 5px 5px grey; 
+    padding-left: 12px;
+}
+
+    /*#stat{
+    
+        display: inline-flex;
+        flex-direction: row;
+        width: 150px;
+        height: 75px;
+        margin: 1px solid white;
+        justify-content: space-around:
+        align-items: center;
+        background-color:yellow;
+    }
+    
+}
+    
+      
+
