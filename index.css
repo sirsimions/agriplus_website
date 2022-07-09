@@ -67,8 +67,8 @@ margin-top: -10px;
 }
 img#grass{
     height: 85%;
-    width: 1270px;
-    margin: 0 0 0 0;
+    width: 1255px;
+   
     box-sizing: border-box;
     
     
@@ -292,7 +292,25 @@ img.tomats{
     left: 1020px;
     height: 140px;
 }
-    
+
+.seek{
+    display: inline-block;
+    position: relative;
+}
+  div.seek{
+    display: inline-flexbox;
+    position: absolute;
+    top:1700px;
+    right: 150px;
+  }
+  .seek:before{
+    content: '';
+    position: absolute;
+    width: 50%;
+    height: 1px;
+    bottom: 14px;
+    border-bottom: 2px solid #ED661F;
+  }
     
     
     
