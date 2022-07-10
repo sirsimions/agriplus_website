@@ -380,8 +380,8 @@ div.line{
     position: relative;
     background-color: white;
     width: 340px;
-    box-shadow: 4px 4px 3px solid rgb(151, 146, 146);
-    border: 1px solid yellowgreen;
+    box-shadow: 4px 4px solid rgb(151, 146, 146);
+    border: 1px solid whitesmoke;
     padding-top: 40px;
     height: 150px;
   }
@@ -418,14 +418,14 @@ div.line{
     left: 450px;
     
   }
-  /*div.star1 {
+  div.star1 {
     position: relative;
     background:  #ED661F;
     display: inline-block;
     height: 60px;
    
   }
-  div#cliper{
+  /*div#cliper{
     position: absolute;
     width: 40px;
     top: 1977px;
@@ -434,18 +434,35 @@ div.line{
     flex-direction: row;
     background:  #ED661F;
     
-  }*/
+  }
   .ratn{
     position: absolute;
-    top: 1977px;
-    left: 870px;
-    transform: translate(-50%,-50%);
     display: flex;
+    align-items: center;
+    justify-content: center;
+    background: whitesmoke;
+    height: 120px;
+    width: 120px;
+  }
+  .ratn div{
+    color: #ED661F;
   }
   .ratn input{
     display: none;
   }
-  .ratn label{
+  .ratn input + label{
+    font-size: 30px;
+   text-shadow: 1px 1px 0 #ED661F;
+   cursor: pointer;
+  }
+  .ratn input:checked + label~label{
+    color: #838383
+  }
+  .ratn label: active{
+    transform: scale(0.8);
+    transform: 0.3s ease;
+  }
+.ratn label{
 display: block;
 cursor: pointer;
 width: 50%;
@@ -480,9 +497,76 @@ input#str1{
   position: relative;
   top: 1200px;
     left: 870px;
+}*/
+div.lastbar{
+  display: inline-flexbox;
+  flex-direction: column;
+  background-color: black;
+  width: 98%;
+  height: 150px;
+  padding-top: 25px;
+  align-content: center;
+  justify-items: center; 
+  margin-left: 20px;
+  position: relative;
+  top: 1400px;
 }
-
-
+div.touch{
+  color: white;
+  display: inline-flexbox;
+  flex-direction: row;
+  margin-top: 19;
+  height: 25px;
+  align-items: center;
+  text-align: center;
+  
+}
+div.subs{
+  color: white;
+  display: inline-flexbox;
+  flex-direction: row;
+  margin-top: 19px;
+  height: 25px;
+  align-items: center;
+  text-align: center;
+}
+div.email{
+  color: white;
+  display: inline-flexbox;
+  flex-direction: row;
+  margin-top: 19;
+  height: 25px;
+  align-items: center;
+  text-align: center;
+}
+div#data{
+display: inline-flexbox;
+height: 35px;
+width: 180px;
+align-items: center;
+  text-align: center;
+  position: relative;
+  left: 43%;
+}
+#linky{
+  background-color: #ED661F;
+  height: 24px;
+  padding-top: 10px;
+  margin-top: 7px;
+  /*width: 100px;*/
+  color: white;
+  text-decoration: none;
+  padding-top: 8px;
+  
+  
+  }
+  div.enter{
+    position: relative;
+    top: 1368px;
+    left: 737;
+    width: 100px;
+  }
+  
     
     
       
