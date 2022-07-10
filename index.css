@@ -566,8 +566,42 @@ align-items: center;
     left: 737;
     width: 100px;
   }
-  
+  div#ft{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: black;
+    position: relative;
+    width: 94%;
+    height: 180px;
+    padding: 25px;
+    justify-items: center;
+    margin-left: 20px;
+    top: 1400px;
+  }
+  div.plus{
+    display: inline-block;
+    flex-direction: row;
+    width: 500px;
+    color: white;
     
+  }
+  div.comp{
+    display: inline-block;
+    flex-direction: row;
+    width: 200px;
+    color: white;
+  }
+  
+  div.rgt{
+    display: inline-flexbox;
+    flex-direction: row;
+    width: 400px;
+    position: relative;
+    top: 1380px;
+    left: 400px;
+    color: white;
+  }
     
       
 
