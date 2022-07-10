@@ -372,17 +372,117 @@ div.line{
     top:1950px;
     margin-left: 60px;
     text-align: center;
-    box-shadow: 4px 4px solid rgb(228, 221, 221); 
+    box-shadow: 4px 4px 3px solid rgb(151, 146, 146);
+  
   }
-  div#feedback{
+  div #feedback{
     display: inline-block;
     position: relative;
     background-color: white;
-    width: 350px;
-    box-shadow: 4px 4px solid rgb(228, 221, 221); 
-    
+    width: 340px;
+    box-shadow: 4px 4px 3px solid rgb(151, 146, 146);
+    border: 1px solid yellowgreen;
+    padding-top: 40px;
+    height: 150px;
+  }
+  img.reb{
+    height: 50px;
+    position: absolute;
+    top: 2070px;
+    border-radius: 50%;
+    left: 135px;
+  }
+  img.joe{
+    height: 50px;
+    position: absolute;
+    top: 2070px;
+    border-radius: 50%;
+    left: 505px;
+  }
+  img.dwel{
+    height: 50px;
+    position: absolute;
+    top: 2070px;
+    border-radius: 50%;
+    left: 823px;
   }
   
+  div.star {
+    position: relative;
+    background:  #ED661F;;
+    clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    top: 1230px;
+    left: 450px;
+    
+  }
+  /*div.star1 {
+    position: relative;
+    background:  #ED661F;
+    display: inline-block;
+    height: 60px;
+   
+  }
+  div#cliper{
+    position: absolute;
+    width: 40px;
+    top: 1977px;
+    left: 870px;
+    display: flex;
+    flex-direction: row;
+    background:  #ED661F;
+    
+  }*/
+  .ratn{
+    position: absolute;
+    top: 1977px;
+    left: 870px;
+    transform: translate(-50%,-50%);
+    display: flex;
+  }
+  .ratn input{
+    display: none;
+  }
+  .ratn label{
+display: block;
+cursor: pointer;
+width: 50%;
+background: #ccc
+  }
+.ratn label:before{
+  content: '\f005';
+  font-family: fontAwsome;
+  position: relative;
+  display: block;
+  font-size: 50px;
+  color: #ED661F;
+}
+.ratn label:after{
+  content: '\f005';
+  font-family: fontAwsome;
+  position: absolute;
+  display: block;
+  font-size: 50px;
+  color: #ED661F;
+  
+  opacity: 1;
+  transition: .5s;
+}
+.ratn label:hover:after,
+.ratn label:hover ~ label:after,
+.ratn input:checked ~ label:after{
+  opacity: 1;
+}
+input#str1{
+  display: inline-flexbox;
+  position: relative;
+  top: 1200px;
+    left: 870px;
+}
+
+
     
     
       
