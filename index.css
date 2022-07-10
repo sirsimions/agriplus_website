@@ -1,22 +1,22 @@
-body{
-    font-style: Poppins;
+*{
+font-style: Poppins;
 }
 .navigate{
-    display: flex;
-    flex-direction: row;
-    background-color: black;
-    width: 96%;
-    height: 60px;
-    padding: 25px;
-    justify-items: center;
+display: flex;
+flex-direction: row;
+background-color: black;
+width: 96%;
+height: 60px;
+padding: 25px;
+justify-items: center;
 }
-.navi-in{
+  .navi-in{
     color: white;
     display: flex;
     flex-direction: row;
     margin-top: 19;
 }
-#posit{
+  #posit{
     color: white;
     padding-bottom: 10px;
     margin-right: 150px;
@@ -40,12 +40,12 @@ color: #ED661F;
 text-emphasis-color: white;
 }
 .sect{
-    display: flex;
-    flex-direction: row;
-    width: 250;
-    margin-right: 12;
-    position: absolute;
-    right: 0px;
+display: flex;
+flex-direction: row;
+width: 250;
+margin-right: 12;
+position: absolute;
+right: 0px;
     
 }
 .search1{
@@ -415,16 +415,10 @@ div.line{
     height: 40px;
     width: 40px;
     top: 1230px;
-    left: 450px;
-    
+    left: 450px; 
   }
-  div.star1 {
-    position: relative;
-    background:  #ED661F;
-    display: inline-block;
-    height: 60px;
-   
-  }
+
+  
   /*div#cliper{
     position: absolute;
     width: 40px;
@@ -593,7 +587,7 @@ align-items: center;
     color: white;
   }
   
-  div.rgt{
+div.rgt{
     display: inline-flexbox;
     flex-direction: row;
     width: 400px;
@@ -602,6 +596,42 @@ align-items: center;
     left: 400px;
     color: white;
   }
+.twit{
+height:20px;
+position: relative;
+top: 1254px;
+left: -70px;
+border-radius: 50%;
+
+ }
+.face{
+height:20px;
+position: relative;
+top: 1254px;
+left: 70px;
+border-radius: 50%;
+
+}
+.insta{
+height:20px;
+position: relative;
+top: 1254px;
+left: -40px;
+border-radius: 50%;
+}
+.app{
+height: 40px;
+position: relative;
+top: 1340px;
+left: -110px;
+}
+.google{
+  height: 30px;
+  position: relative;
+  top: 1330px;
+  left: 110px;
+}
+  
     
       
 
