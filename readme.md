@@ -1,5 +1,5 @@
 # Agriplus Website
-# Live link:
+# Live link: https://sirsimions.github.io/agriplus_website/
 #### The current project is a web application that connects farmers with buyers. The app is dated 10/7/2022.
 #### By **Simion Okola**
 ## Description
